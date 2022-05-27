@@ -1,6 +1,6 @@
 package net.alexandra.volcanomc.mixin;
 
-import net.alexandra.volcanomc.ExampleMod;
+import net.alexandra.volcanomc.VolcanoInit;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class TitleScreenMixin {
 	@Inject(method = "init", at = @At("TAIL"))
 	public void onInit(CallbackInfo ci) {
-		ExampleMod.LOGGER.info("This line is printed by an example mod mixin!");
+		VolcanoInit.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }

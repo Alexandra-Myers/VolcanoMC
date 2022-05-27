@@ -11,14 +11,14 @@
 				"Alexandra": "Owner"
 			},
 			"contact": {
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"issues": "https://github.com/Alexandra-Myers/VolcanoMC/issues",
+				"sources": "https://github.com/Alexandra-Myers/VolcanoMC"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/volcanomc/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "net.alexandra.volcanomc.VolcanoInit"
 		},
 		"depends": [
 			{
@@ -35,5 +35,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "volcanomc.mixins.json"
 }
